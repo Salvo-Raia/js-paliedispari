@@ -1,26 +1,28 @@
 console.log("Js is ready to go!");
 
 /* L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. */ 
-console.log("Scegli tra pari o dispari");
+console.log("Scegli quale risultato prevedi tra pari o dispari");
 userChoiceOddEven = prompt("Pari o dispari?", "Pari");
-console.log("Bene, è il momento di scegliere un numero");
-userChoiceNumber = prompt("Scegli un numero tra 1 a 5", "1");
+console.log("Bene, è il momento di scegliere un numero tra 1 e 5");
+let userChoiceNumber;
 
 let i = 0;
-let playersSum = 0;
 for (; i === 0; ) {
     userChoiceNumber = parseInt(prompt("Scegli un numero tra 1 a 5", "1"));
-    if (userChoiceOddEven == "pari" && userChoiceNumber % 2 == 0) {
+    if (userChoiceNumber <= 5 && userChoiceNumber >=1) {
+        console.log("Hai scelto", userChoiceNumber)
         break
     } else {
-        console.log("Non è un numero pari");
+        console.log("Il numero deve essere compreso tra 1 e 5");
     }
-} 
-let playersSum = userChoiceNumber + pcNumber; 
+}
+        
 
-
-console.log("Hai scelto", parseInt(userChoiceNumber));
-pcNumberRandomize (5, 1); 
+console.log("Ora tocca la pc!");
+const pcNumber = pcNumberRandomize (5, 1); 
+console.log("Adesso sommiamo le vostre scelte...");
+let victoryResponse = parseInt(userChoiceNumber + pcNumber); 
+console.log(victoryResponse);
 
 /* Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione) */ 
 function pcNumberRandomize (max, min) {
