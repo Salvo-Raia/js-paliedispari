@@ -31,8 +31,8 @@ console.log(finalMessage);
 console.log("Ricarica la pagina per giocare una nuova partita!");
 
 
-/* Funzioni   
-/* Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione) */ 
+//* Funzioni   
+/*  Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione) */ 
 
 /**
  * This function generate a random number between a min and max value
