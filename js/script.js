@@ -3,11 +3,22 @@ console.log("Js is ready to go!");
 /* L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. */ 
 console.log("Scegli tra pari o dispari");
 userChoiceOddEven = prompt("Pari o dispari?", "Pari");
-
-for (i = 0; i < 1; i++)
-
 console.log("Bene, è il momento di scegliere un numero");
 userChoiceNumber = prompt("Scegli un numero tra 1 a 5", "1");
+
+let i = 0;
+let playersSum = 0;
+for (; i === 0; ) {
+    userChoiceNumber = parseInt(prompt("Scegli un numero tra 1 a 5", "1"));
+    if (userChoiceOddEven == "pari" && userChoiceNumber % 2 == 0) {
+        break
+    } else {
+        console.log("Non è un numero pari");
+    }
+} 
+let playersSum = userChoiceNumber + pcNumber; 
+
+
 console.log("Hai scelto", parseInt(userChoiceNumber));
 pcNumberRandomize (5, 1); 
 
