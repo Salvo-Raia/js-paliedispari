@@ -17,12 +17,13 @@ for (; i === 0; ) {
     }
 }
         
-
 console.log("Ora tocca la pc!");
 const pcNumber = pcNumberRandomize (5, 1); 
+
+/* Sommiamo i due numeri */
 console.log("Adesso sommiamo le vostre scelte...");
-let victoryResponse = parseInt(userChoiceNumber + pcNumber); 
-console.log(victoryResponse);
+let playersSum = userChoiceNumber + pcNumber; 
+console.log("La somma è", playersSum);
 
 /* Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione) */ 
 function pcNumberRandomize (max, min) {
@@ -31,8 +32,8 @@ function pcNumberRandomize (max, min) {
     return pcNumber;
 }
 
+/* Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) */ 
 
-/* Sommiamo i due numeri
-Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
-Dichiariamo chi ha vinto */ 
+
+/* Dichiariamo chi ha vinto */ 
 
