@@ -9,9 +9,15 @@ const userWordReversed = userWordInsert.split("").reverse().join("");
 console.log("Hai scritto", userWordInsert);
 console.log("Che al contrario è:", userWordReversed);
 
+AbbafyMe (userWordInsert, userWordReversed);
+isTheWordPalindrome = isTheWordPalindromeResponse;
+console.log(isTheWordPalindrome);
+let wordMatch = (isTheWordPalindrome) ? "Sì, la parola è palindroma" : "No, questa parola non è palindroma"
+console.log(wordMatch);
+
 /* Creare una funzione per capire se la parola inserita è palindroma */ 
 function AbbafyMe (userWordInsert, userWordReversed) {
-let isTheWordPalindromeResponse = (userWordInsert.toLowerCase()) === (userWordReversed.toLowerCase()) ? true : false;
+isTheWordPalindromeResponse = (userWordInsert.toLowerCase()) === (userWordReversed.toLowerCase()) ? true : false;
 return isTheWordPalindromeResponse;
 }
 
