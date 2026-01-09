@@ -19,13 +19,12 @@ console.log(wordMatch);
  * This function check if a word is exactly the same when reversed. If this is the case, it returns a true value;
  * @param {string} userWordInsert is a string prompted by user. 
  * @param {string} userWordReversed is the same string prompted by user, but reversed.
- * @const {boolean} isTheWordPalindromeResponse check if both the regular and reversed string matches as the same word and set true or false;
+ * @const {boolean} isTheWordPalindromeResponse check if both the regular and reversed string matches as the same word;
  * @returns {boolean} 
  */
 function AbbafyMe (userWordInsert, userWordReversed) {
 const isTheWordPalindrome = userWordInsert.toLowerCase() === userWordReversed.toLowerCase() 
 return isTheWordPalindrome;
 }
-
 
 
