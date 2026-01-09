@@ -7,7 +7,7 @@ const userWordReversed = userWordInsert.split("").reverse().join("");
 console.log("Hai scritto", userWordInsert);
 console.log("Che al contrario è:", userWordReversed);
 
-isTheWordPalindromeResponse = AbbafyMe (userWordInsert, userWordReversed);
+let isTheWordPalindromeResponse = AbbafyMe (userWordInsert, userWordReversed);
 console.log(isTheWordPalindromeResponse);
 
 let wordMatch = (isTheWordPalindromeResponse) ? "Sì, la parola è palindroma" : "No, questa parola non è palindroma"
@@ -23,7 +23,7 @@ console.log(wordMatch);
  * @returns {boolean} 
  */
 function AbbafyMe (userWordInsert, userWordReversed) {
-const isTheWordPalindrome = (userWordInsert.toLowerCase()) === (userWordReversed.toLowerCase()) ? true : false;
+const isTheWordPalindrome = userWordInsert.toLowerCase() === userWordReversed.toLowerCase() 
 return isTheWordPalindrome;
 }
 
