@@ -1,6 +1,6 @@
 ![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 22/50 - Palindromes & Even or Odd
+# 🎓 Exercise 22/50: Palindromes & Even or Odd
 
 Creating JavaScript functions to check palindromes and develop an Even or Odd game against the computer.
 
