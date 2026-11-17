@@ -1,6 +1,8 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
 # 🎓 Exercise 22/50 - Palindromes & Even or Odd
+
+Creating JavaScript functions to check palindromes and develop an Even or Odd game against the computer.
 
 ## 📌 Project Overview
 
@@ -13,15 +15,13 @@
 
 ## 🎯 Assignment
 
-### 🔄 Palindrome Check
+####  Palindrome Check
 
-Ask the user to enter a word.
-
-Create a function that determines whether the entered word is a palindrome.
+Ask the user to enter a word. Create a function that determines whether the entered word is a palindrome.
 
 A palindrome is a word that reads the same forwards and backwards.
 
-### 🎲 Even or Odd
+####  Even or Odd
 
 Create a game in which the user competes against the computer.
 
@@ -34,14 +34,10 @@ Follow these steps:
 5. Determine whether the sum is even or odd, using a function.
 6. Compare the result with the user's initial choice and declare the winner.
 
-## 💡 Tips and Guidelines
+## 🔎 Notes
 
-### Problem-Solving Approach
-
-1. Always write down the steps you want to perform in Italian before starting to code.
+1. Before writing any code, describe in plain language the steps you intend to follow, explaining your reasoning as if you were talking someone through the solution.
 2. Write only a small piece of code at a time. If it works correctly, move on to the next step.
-
-### 🧩 Questions to Ask When Creating a Function
 
 Before implementing a function, consider the following questions:
 
@@ -68,4 +64,4 @@ Think about the purpose of each function before writing its code.
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
