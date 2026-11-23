@@ -8,7 +8,7 @@ Creating JavaScript functions to check palindromes and develop an Even or Odd ga
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-paliedispari | Palindromes & Even or Odd | Exercise | JavaScript functions, strings & Random numbers | 22/50 |
+| js-paliedispari | Palindromes & Even or Odd | Exercise | JavaScript, functions, strings & Random numbers | 22/50 |
 
 ## Assignment
 
@@ -24,7 +24,7 @@ A palindrome is a word that reads the same forwards and backwards.
 
 Create a game in which the user competes against the computer.
 
-Follow these steps:
+Follow these steps.
 
 1. Ask the user to choose between **Even** and **Odd**.
 2. Ask the user to enter a number between **1 and 5**.
