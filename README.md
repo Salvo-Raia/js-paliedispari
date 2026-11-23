@@ -8,7 +8,7 @@ Creating JavaScript functions to check palindromes and develop an Even or Odd ga
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-paliedispari | Palindromes & Even or Odd | Exercise | JavaScript, functions, strings & Random numbers | 22/50 |
+| js-paliedispari | Palindromes & Even or Odd | Exercise | JavaScript, functions & Random numbers | 22/50 |
 
 ## Assignment
 
