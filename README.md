@@ -14,7 +14,7 @@ Creating JavaScript functions to check palindromes and develop an Even or Odd ga
 
 Practice writing JavaScript functions to manipulate strings, generate random numbers, and handle game logic through two small programming challenges.
 
-#### Palindrome check
+#### Palindromes
 
 Ask the user to enter a word. Create a function that determines whether the entered word is a palindrome.
 
